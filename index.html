@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Company | Marble, Granite & Tiles</title>
+  <meta name="description" content="Supplier and manufacturer of high-quality marble, granite, and tiles for homes, offices, and large-scale projects.">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <h1 class="logo">YourCompany<span>.</span></h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Natural Elegance in Every Stone</h2>
+      <p>Premium marble, granite, and tile collections crafted for timeless beauty and durability.</p>
+      <a href="#products" class="btn">View Products</a>
+    </div>
+  </section>
+
+  <section id="products" class="section">
+    <div class="container">
+      <h2>Our Products</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1581090464777-26b5f04e9dc0?auto=format&fit=crop&w=600&q=80" alt="Marble slab">
+          <h3>Marble</h3>
+          <p>Elegant natural marble available in a variety of colors and finishes for interiors and exteriors.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=600&q=80" alt="Granite stone">
+          <h3>Granite</h3>
+          <p>Strong, durable, and perfect for countertops, flooring, and wall cladding.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1621905251189-08b45d4df988?auto=format&fit=crop&w=600&q=80" alt="Tiles">
+          <h3>Tiles</h3>
+          <p>Modern tiles for every space — from sleek porcelain to rustic ceramic textures.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section alt">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Founded with a passion for excellence, <strong>YourCompany</strong> is a trusted name in natural stone and tile manufacturing.  
+      Our products combine beauty and strength, serving homeowners, architects, and construction firms worldwide.</p>
+      <p>We focus on quality, precision cutting, and sustainable sourcing to deliver the best materials for every project.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Ready to start your project or request a quote?</p>
+      <p>Email: <a href="mailto:info@yourcompany.com">info@yourcompany.com</a><br>
+         Phone: +1 234 567 890<br>
+         Address: Industrial Zone 12, City, Country</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> YourCompany — Marble | Granite | Tiles</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
